@@ -1,0 +1,15 @@
+{
+  "name": "glm-router-local",
+  "description": "Локальный экспериментальный каталог одного плагина glm-router. Это не официальный магазин ZCode.",
+  "plugins": [
+    {
+      "name": "glm-router",
+      "source": "./glm-router",
+      "description": "Локальный советник GLM-5.3 и GLM-5.3-Flash. Не переключает модель сессии и по умолчанию исключает OpenRouter.",
+      "version": "0.1.0",
+      "category": "utilities",
+      "tags": ["glm", "experimental", "advisor"],
+      "strict": true
+    }
+  ]
+}

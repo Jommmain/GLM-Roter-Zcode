@@ -1,0 +1,17 @@
+{
+  "name": "glm-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Experimental local GLM advisor plugin for ZCode Desktop. Not an npm library and not a model switch.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "glm-router": "node glm-router/bin/glm-router.mjs",
+    "scan": "node scripts/security-scan.mjs",
+    "release": "node scripts/make-release.mjs"
+  },
+  "license": "MIT"
+}
